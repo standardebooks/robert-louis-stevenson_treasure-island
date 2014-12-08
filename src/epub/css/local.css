@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+span[epub|type~="subtitle"]{
+	display: block;
+}
+
+section[epub|type~="chapter"],
+section[epub|type~="part"] > h2{
+	page-break-after: always;
+}
+	
+section[epub|type~="dedication"] p{
+	text-align: center;
+	text-indent: 0em; /* for Kindles */
+}
+
+section[epub|type~="dedication"] p + p,
+section[epub|type~="z3998:poem"] p + p,
+section[epub|type~="z3998:verse"] p + p{
+	margin-top: 2em;
+}
+
+section[epub|type~="dedication"] p b,
+span[epub|type~="z3998:salutation"],
+span[epub|type~="z3998:valediction"]{
+	font-variant: small-caps;
+}
+
+.signature,
+span[epub|type~="z3998:valediction"]{
+	text-align: right;
+}
+
+figure{
+	text-align: center;
+}
+
+blockquote[epub|type~="z3998:song"] p,
+blockquote[epub|type~="z3998:verse"] p,
+.directions p{
+	text-indent: 0em;
+}
+
+*[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+*[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+*[epub|type~="z3998:poem"] p span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+*[epub|type~="z3998:poem"] br{
+	display: none;
+}
