@@ -42,16 +42,16 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/robert-louis-stevenson_treasure-island_milo-winter</meta>
 		<dc:creator id="author">Robert Louis Stevenson</dc:creator>
 		<meta property="file-as" refines="#author">Stevenson, Robert Louis</meta>
-		<meta property="se:url.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Robert_Louis_Stevenson</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Robert_Louis_Stevenson</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">N. C. Wyeth</dc:contributor>
 		<meta property="file-as" refines="#artist">Wyeth, N. C.</meta>
 		<meta property="se:name.person.full-name" refines="#artist">Newell Convers Wyeth</meta>
-		<meta property="se:url.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/N.C._Wyeth</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/N.C._Wyeth</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="illustrator">Milo Winter</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Winter, Milo</meta>
-		<meta property="se:url.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Milo_Winter</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Milo_Winter</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Sutherland, Juliet</meta>
