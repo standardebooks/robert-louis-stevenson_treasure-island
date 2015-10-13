@@ -3,6 +3,7 @@
 
 span[epub|type~="subtitle"]{
 	display: block;
+	font-weight: normal;
 }
 
 section[epub|type~="chapter"],
