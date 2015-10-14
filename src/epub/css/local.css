@@ -73,8 +73,9 @@ figure{
 	display: none;
 }
 
-*[epub|type~="z3998:song"] p span.i1{
-	text-indent: 0;
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
 abbr.name{
