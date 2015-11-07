@@ -16,12 +16,6 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] p + p,
-*[epub|type~="z3998:poem"] p + p,
-*[epub|type~="z3998:verse"] p + p{
-	margin-top: 1em;
-}
-
 section[epub|type~="dedication"] p b,
 span[epub|type~="z3998:salutation"],
 span[epub|type~="z3998:valediction"]{
@@ -53,9 +47,9 @@ figure{
 	text-indent: 0;
 }
 
+*[epub|type~="dedication"] p + p,
 *[epub|type~="z3998:song"] p + p,
-*[epub|type~="z3998:poem"] p + p,
-*[epub|type~="z3998:verse"] p + p{
+*[epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
 
