@@ -29,7 +29,18 @@ span[epub|type~="z3998:valediction"],
 }
 
 figure{
+	margin: 1em auto;
 	text-align: center;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
+figure img{
+	max-width: 100%;
+	margin: auto;
+	display: block;
 }
 
 [epub|type~="z3998:song"] p,
