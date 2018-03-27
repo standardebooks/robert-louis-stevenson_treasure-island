@@ -1,6 +1,10 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+abbr.name{
+	white-space: nowrap;
+}
+
 abbr.compass{
 	white-space: nowrap;
 }
@@ -32,14 +36,14 @@ figure{
 	text-align: center;
 }
 
-figure + p{
-	text-indent: 0;
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
 }
 
-figure img{
-	max-width: 100%;
-	margin: auto;
-	display: block;
+figure + p{
+	text-indent: 0;
 }
 
 [epub|type~="z3998:song"] p,
@@ -80,8 +84,4 @@ figure img{
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
-}
-
-abbr.name{
-	white-space: nowrap;
 }
