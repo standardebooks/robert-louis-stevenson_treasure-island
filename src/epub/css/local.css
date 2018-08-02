@@ -1,14 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.name{
-	white-space: nowrap;
-}
-
-abbr.compass{
-	white-space: nowrap;
-}
-
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
@@ -19,7 +11,6 @@ section[epub|type~="dedication"] p{
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] p b,
 span[epub|type~="z3998:salutation"],
 span[epub|type~="z3998:valediction"]{
 	font-variant: small-caps;
