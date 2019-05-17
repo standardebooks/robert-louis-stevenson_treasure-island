@@ -26,25 +26,26 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Treasure Island</dc:title>
 		<meta property="file-as" refines="#title">Treasure Island</meta>
 		<dc:subject id="subject-1">Buried treasure--Fiction</dc:subject>
 		<dc:subject id="subject-2">Pirates--Fiction</dc:subject>
 		<dc:subject id="subject-3">Adventure and adventurers--Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">http://lccn.loc.gov/81008788</meta>
-		<meta property="meta-auth" refines="#subject-2">http://lccn.loc.gov/81008788</meta>
-		<meta property="meta-auth" refines="#subject-3">http://lccn.loc.gov/81008788</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008109300</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Adventure</meta>
 		<meta property="se:subject">Childrens</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A young boy finds adventure on the high seas as he battles bloodthirsty pirates in search of a long-lost treasure.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Treasure Island&lt;/i&gt; isn’t just one of the most famous coming-of-age tales in modern storytelling, it’s also the book that invented everything you know about pirates: Peg legs, parrots, treasure chests, tropical islands, Long John Silver, maps marked with an “X,” swashbuckling adventure, and “Yo-ho-ho and a bottle of rum.”&lt;/p&gt;
 			&lt;p&gt;Its brisk pace and easy tone have stood the test of the time—&lt;i&gt;Treasure Island&lt;/i&gt; is as readable, enjoyable, and memorable today as it ever was.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/27780</dc:source>
 		<dc:source>https://archive.org/details/treasislandyork00stev</dc:source>
