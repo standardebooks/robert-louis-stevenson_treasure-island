@@ -22,21 +22,6 @@ span[epub|type~="z3998:valediction"],
 	text-align: right;
 }
 
-figure{
-	margin: 1em auto;
-	text-align: center;
-}
-
-figure img{
-	display: block;
-	margin: auto;
-	max-width: 100%;
-}
-
-figure + p{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:verse"] p,
