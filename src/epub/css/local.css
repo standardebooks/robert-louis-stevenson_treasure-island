@@ -11,7 +11,7 @@ span[epub|type~="z3998:valediction"]{
 	font-variant: small-caps;
 }
 
-[epub:type~="z3998:signature"],
+[epub|type~="z3998:signature"],
 span[epub|type~="z3998:valediction"],
 [epub|type~="se:letter.dateline"]{
 	text-align: right;
