@@ -1,6 +1,15 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+* + p[epub|type~="z3998:signature"]{
+	margin-top: 1em;
+}
+
 section[epub|type~="dedication"] p{
 	text-align: center;
 	text-indent: 0;
@@ -55,4 +64,10 @@ span[epub|type~="z3998:valediction"],
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
 }
