@@ -45,7 +45,7 @@
 		<meta id="collection-1" property="belongs-to-collection">The Telegraph’s Greatest Villains in Literature</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">47</meta>
-		<dc:abstract>A young boy finds adventure on the high seas as he battles bloodthirsty pirates in search of a long-lost treasure.</dc:abstract>
+		<meta property="schema:abstract">A young boy finds adventure on the high seas as he battles bloodthirsty pirates in search of a long-lost treasure.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;Treasure Island&lt;/i&gt; isn’t just one of the most famous coming-of-age tales in modern storytelling, it’s also the book that invented everything you know about pirates: Peg legs, parrots, treasure chests, tropical islands, Long John Silver, maps marked with an “X,” swashbuckling adventure, and “Yo-ho-ho and a bottle of rum.”&lt;/p&gt;
 			&lt;p&gt;Its brisk pace and easy tone have stood the test of the time—&lt;i&gt;Treasure Island&lt;/i&gt; is as readable, enjoyable, and memorable today as it ever was.&lt;/p&gt;
