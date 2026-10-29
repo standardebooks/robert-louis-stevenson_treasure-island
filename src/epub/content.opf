@@ -70,7 +70,7 @@
 		<dc:contributor id="artist">N. C. Wyeth</dc:contributor>
 		<meta property="file-as" refines="#artist">Wyeth, N. C.</meta>
 		<meta property="schema:alternateName" refines="#artist">Newell Convers Wyeth</meta>
-		<link href="https://en.wikipedia.org/wiki/N.C._Wyeth" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/N._C._Wyeth" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79054878.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Juliet Sutherland</dc:contributor>
